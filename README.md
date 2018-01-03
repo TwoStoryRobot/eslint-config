@@ -22,7 +22,6 @@ it will reference the config file in the root of your project directory.
 
 ```json
 "scripts": {
-  ...
   "eslint": "eslint '**/*.js'"
 }
 ```
