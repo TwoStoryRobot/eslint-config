@@ -3,7 +3,8 @@
 ## Usage
 
 Installing the package will make a symlink in the root of your project to the
-eslint config in this repo.
+eslint config in this repo. It is recommended to add `.eslintrc.js` to your
+`.gitignore` so you don't accidentally commit the symlink.
 
 ```bash
 npm install @twostoryrobot/eslint
