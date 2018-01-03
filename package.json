@@ -15,7 +15,7 @@
     "eslint-plugin-jest": "^21.4.3"
   },
   "author": "Chad Fawcett <me@chadf.ca>",
-  "license": "UNLICENSED",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/TwoStoryRobot/eslint-config/issues"
   },
