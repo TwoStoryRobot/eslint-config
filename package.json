@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/TwoStoryRobot/eslint.git"
+    "url": "git+https://github.com/TwoStoryRobot/eslint-config.git"
   },
   "peerDependencies": {
     "eslint": "^4.13.1",
@@ -17,7 +17,7 @@
   "author": "Chad Fawcett <me@chadf.ca>",
   "license": "UNLICENSED",
   "bugs": {
-    "url": "https://github.com/TwoStoryRobot/eslint/issues"
+    "url": "https://github.com/TwoStoryRobot/eslint-config/issues"
   },
-  "homepage": "https://github.com/TwoStoryRobot/eslint#readme"
+  "homepage": "https://github.com/TwoStoryRobot/eslint-config#readme"
 }
