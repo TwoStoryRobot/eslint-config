@@ -7,13 +7,13 @@ eslint config in this repo. It is recommended to add `.eslintrc.js` to your
 `.gitignore` so you don't accidentally commit the symlink.
 
 ```bash
-npm install @twostoryrobot/eslint
+npm install --save-dev @twostoryrobot/eslint
 ```
 
 Make sure to install the peer dependencies
 
 ```bash
-npm install eslint eslint-plugin-jest
+npm install --save-dev eslint eslint-plugin-jest
 ```
 
 ### Scripts
