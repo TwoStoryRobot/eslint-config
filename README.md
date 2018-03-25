@@ -13,7 +13,7 @@ npm install --save-dev @twostoryrobot/eslint
 Make sure to install the peer dependencies
 
 ```bash
-npm install --save-dev eslint eslint-plugin-jest
+npm install --save-dev eslint eslint-plugin-jest eslint-plugin-react
 ```
 
 ### Scripts
