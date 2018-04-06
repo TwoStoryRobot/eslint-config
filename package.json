@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Two Story Robot eslint configuration",
   "main": "index.js",
-  "scripts": {
-    "postinstall": "ln -fs $(pwd)/eslint.js $(pwd)/../../../.eslintrc.js"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/TwoStoryRobot/eslint-config.git"
