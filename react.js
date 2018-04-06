@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['base', 'plugin:react/recommended'],
+  extends: ['./eslint-config-base.js', 'plugin:react/recommended'],
   env: {
     browser: true
   },
