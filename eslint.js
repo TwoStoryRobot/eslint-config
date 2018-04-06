@@ -10,20 +10,20 @@ module.exports = {
     ecmaFeatures: {
       jsx: true
     },
-    sourceType: "module"
+    sourceType: 'module'
   },
-  plugins: ["jest", "react"],
+  plugins: ['jest', 'react'],
   extends: [
-    "eslint:recommended",
-    "plugin:jest/recommended",
-    "plugin:react/recommended"
+    'eslint:recommended',
+    'plugin:jest/recommended',
+    'plugin:react/recommended'
   ],
   rules: {
-    indent: ["error", 2],
-    "linebreak-style": ["error", "unix"],
-    quotes: ["error", "single"],
-    semi: ["error", "never"],
-    "no-console": "off",
-    "react/display-name": "off"
+    indent: ['error', 2],
+    'linebreak-style': ['error', 'unix'],
+    quotes: ['error', 'single'],
+    semi: ['error', 'never'],
+    'no-console': 'off',
+    'react/display-name': 'off'
   }
 }
