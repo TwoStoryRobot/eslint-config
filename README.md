@@ -29,6 +29,10 @@ module.exports = {
 }
 ```
 
+If you are using NPM >5 you can also do this:
+
+    npx install-peerdeps --dev @twostoryrobot/eslint
+
 ### Scripts
 
 Now you can add a script to your project's package.json that calls eslint and
