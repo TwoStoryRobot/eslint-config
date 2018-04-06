@@ -1,5 +1,8 @@
 # 2SR eslint
 
+The Two Story Robot [sharable eslint configuration](https://eslint.org/docs/developer-guide/shareable-configs#using-a-shareable-config)
+so you can lint like us.
+
 ## Usage
 
 Install the package
