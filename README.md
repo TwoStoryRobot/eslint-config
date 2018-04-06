@@ -1,19 +1,32 @@
 # 2SR eslint
 
+The Two Story Robot [sharable eslint configuration](https://eslint.org/docs/developer-guide/shareable-configs#using-a-shareable-config)
+so you can lint like us.
+
 ## Usage
 
-Installing the package will make a symlink in the root of your project to the
-eslint config in this repo. It is recommended to add `.eslintrc.js` to your
-`.gitignore` so you don't accidentally commit the symlink.
+Install the package
 
 ```bash
-npm install --save-dev @twostoryrobot/eslint
+npm install --save-dev @twostoryrobot/eslint-config
 ```
 
 Make sure to install the peer dependencies
 
 ```bash
-npm install --save-dev eslint eslint-plugin-jest
+npm install --save-dev eslint eslint-plugin-jest eslint-plugin-react
+```
+
+Add `@twostoryrobot/eslint-config` (or just `@twostoryrobot`) or
+`@twostoryrobot/eslint-config/react` (no shortcut for the react config, sorry)
+to the `extends` of your `.eslintrc`.
+
+Example: `.eslintrc.js`:
+
+```javascript
+module.exports = {
+  extends: ['@twostoryrobot/eslint-config/react']
+}
 ```
 
 ### Scripts
