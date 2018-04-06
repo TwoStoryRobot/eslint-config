@@ -19,6 +19,10 @@ Make sure to install the peer dependencies
 npm install --save-dev eslint eslint-plugin-jest eslint-plugin-react
 ```
 
+If you are using NPM >5 you can also do this:
+
+    npx install-peerdeps --dev @twostoryrobot/eslint-config
+
 Add `@twostoryrobot/eslint-config` (or just `@twostoryrobot`) or
 `@twostoryrobot/eslint-config/react` (no shortcut for the react config, sorry)
 to the `extends` of your `.eslintrc`.
@@ -30,10 +34,6 @@ module.exports = {
   extends: ['@twostoryrobot/eslint-config/react']
 }
 ```
-
-If you are using NPM >5 you can also do this:
-
-    npx install-peerdeps --dev @twostoryrobot/eslint
 
 ### Scripts
 
