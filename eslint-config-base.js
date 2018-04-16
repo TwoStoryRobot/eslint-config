@@ -4,8 +4,9 @@ module.exports = {
     node: true,
     jest: true
   },
+  parser: 'babel-eslint',
   parserOptions: {
-    ecmaVersion: 2017
+    ecmaVersion: 2018
   },
   plugins: ['jest'],
   extends: ['eslint:recommended', 'plugin:jest/recommended'],
