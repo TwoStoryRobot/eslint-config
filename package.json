@@ -9,6 +9,7 @@
   },
   "peerDependencies": {
     "eslint": "^4.13.1",
+    "eslint-config-prettier": "^2.9.0",
     "eslint-plugin-jest": "^21.4.3",
     "eslint-plugin-react": "^7.7.0"
   },
