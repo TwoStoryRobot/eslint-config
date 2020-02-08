@@ -60,7 +60,9 @@ If you install [husky](https://github.com/typicode/husky) you can invoke eslint
 as a hook for various actions (precommit, prepush, etc)
 
 ```json
-"scripts": {
-  "precommit": "eslint '**/*.js'"
+"husky": {
+  "hooks": {
+    "pre-commit": "eslint '**/*.js'"
+  }
 }
 ```
