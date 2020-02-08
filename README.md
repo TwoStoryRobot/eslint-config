@@ -1,6 +1,6 @@
 [![npm (scoped)](https://img.shields.io/npm/v/@twostoryrobot/eslint-config.svg)](https://www.npmjs.com/package/@twostoryrobot/eslint-config)
 
-# 2SR eslint
+# Two Story Robot eslint
 
 The Two Story Robot [sharable eslint configuration](https://eslint.org/docs/developer-guide/shareable-configs#using-a-shareable-config)
 so you can lint like us.
@@ -9,15 +9,11 @@ so you can lint like us.
 
 Install the package
 
-```bash
-npm install --save-dev @twostoryrobot/eslint-config
-```
+    npm install --save-dev @twostoryrobot/eslint-config
 
 Make sure to install the peer dependencies
 
-```bash
-npm install --save-dev eslint eslint-plugin-jest eslint-plugin-react
-```
+    npm install --save-dev eslint eslint-plugin-jest eslint-plugin-react eslint-config-prettier
 
 If you are using NPM >5 you can also do this:
 
@@ -33,6 +29,18 @@ Example: `.eslintrc.js`:
 module.exports = {
   extends: ['@twostoryrobot/eslint-config/react']
 }
+```
+
+Optionally, if you are using create-react-app, you can change the `eslintConfig`
+in `package.json`:
+
+```javascript
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "@twostoryrobot/eslint-config/react"
+    ]
+  }
 ```
 
 ### Scripts
