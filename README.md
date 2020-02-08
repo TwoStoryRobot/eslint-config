@@ -27,7 +27,7 @@ Example: `.eslintrc.js`:
 
 ```javascript
 module.exports = {
-  extends: ['@twostoryrobot/eslint-config/react']
+  extends: ['react-app', '@twostoryrobot/eslint-config/react']
 }
 ```
 
