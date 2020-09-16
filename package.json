@@ -20,6 +20,6 @@
   },
   "homepage": "https://github.com/TwoStoryRobot/eslint-config#readme",
   "dependencies": {
-    "babel-eslint": "^8.2.3"
+    "babel-eslint": "^9.0.0"
   }
 }
