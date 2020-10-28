@@ -11,6 +11,7 @@ module.exports = {
   plugins: ['jest'],
   extends: ['eslint:recommended', 'plugin:jest/recommended', 'prettier'],
   rules: {
-    'no-console': 'off'
+    'no-console': 'off',
+    'multiline-comment-style': ['error', 'starred-block']
   }
 }
