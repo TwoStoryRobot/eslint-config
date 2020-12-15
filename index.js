@@ -8,8 +8,13 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 2018
   },
-  plugins: ['jest'],
-  extends: ['eslint:recommended', 'plugin:jest/recommended', 'prettier'],
+  plugins: ['jest', 'jsx-a11y'],
+  extends: [
+    'eslint:recommended',
+    'plugin:jest/recommended',
+    'prettier',
+    'plugin:jsx-a11y/recommended'
+  ],
   rules: {
     'no-console': 'off',
     'multiline-comment-style': ['error', 'starred-block']
