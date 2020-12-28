@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./index.js', 'plugin:react/recommended'],
+  extends: ['./index.js', 'plugin:react/recommended', 'react-app'],
   env: {
     browser: true
   },
