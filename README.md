@@ -25,13 +25,30 @@ If you are using NPM >5 you can also do this:
 
 Add `@twostoryrobot/eslint-config` (or just `@twostoryrobot`) or
 `@twostoryrobot/eslint-config/react` (no shortcut for the react config, sorry)
-to the `extends` of your `.eslintrc`.
+to the `extends` of your `.eslintrc`. If using create-react-app, you must make
+sure to configure eslint via `package.json` instead, to ensure it is used by the
+dev server. You can also remove the default `extends: ['react-app','react-app/jest'`],
+since this config also includes those rules.
 
 Example: `.eslintrc.js`:
 
 ```javascript
 module.exports = {
   extends: ['@twostoryrobot/eslint-config/react']
+}
+```
+
+Example: `package.json` if using CRA:
+
+```json
+{
+  ...
+  "eslintConfig": {
+    "extends": [
+      "@twostoryrobot/eslint-config/react"
+    ]
+  },
+  ...
 }
 ```
 
