@@ -11,6 +11,7 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    'react/display-name': 'off'
+    'react/display-name': 'off',
+    'react/react-in-jsx-scope': 'off'
   }
 }
