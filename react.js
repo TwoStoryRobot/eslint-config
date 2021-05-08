@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['./index.js', 'plugin:react/recommended'],
+  extends: ['./index.js', 'plugin:react/recommended', 'react-app'],
   env: {
     browser: true
   },
@@ -11,6 +11,7 @@ module.exports = {
   },
   plugins: ['react'],
   rules: {
-    'react/display-name': 'off'
+    'react/display-name': 'off',
+    'react/react-in-jsx-scope': 'off'
   }
 }
