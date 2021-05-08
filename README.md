@@ -16,7 +16,7 @@ npm install --save-dev @twostoryrobot/eslint-config
 Make sure to install the peer dependencies
 
 ```bash
-npm install --save-dev eslint eslint-config-prettier eslint-plugin-jest eslint-plugin-react
+npm install --save-dev eslint eslint-config-prettier eslint-plugin-jest eslint-plugin-react eslint-plugin-jsx-a11y
 ```
 
 If you are using NPM >5 you can also do this:
