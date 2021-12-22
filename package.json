@@ -1,6 +1,6 @@
 {
   "name": "@twostoryrobot/eslint-config",
-  "version": "2.2.2",
+  "version": "3.0.0",
   "description": "Two Story Robot eslint configuration",
   "main": "index.js",
   "repository": {
@@ -8,18 +8,17 @@
     "url": "git+https://github.com/TwoStoryRobot/eslint-config.git"
   },
   "peerDependencies": {
-    "eslint": "^4.13.1",
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-jest": "^21.4.3",
+    "eslint": "^8.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-jest": "^25.1.0",
     "eslint-plugin-react": "^7.7.0"
   },
-  "author": "Chad Fawcett <me@chadf.ca>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/TwoStoryRobot/eslint-config/issues"
   },
   "homepage": "https://github.com/TwoStoryRobot/eslint-config#readme",
   "dependencies": {
-    "babel-eslint": "^10.1.0"
+    "@babel/eslint-parser": "^7.16.5"
   }
 }
