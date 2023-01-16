@@ -66,7 +66,7 @@ CRA will automatically run lint checks as part of the build. You can also run
 them manually with `npm run eslint`.
 
 Developers may want to set `ESLINT_NO_DEV_ERRORS=true` to avoid eslint errors 
-breaking the build in development (they will still error in production builds).
+halting the build in development (they will still error in production builds).
 
 ### Next.js
 
